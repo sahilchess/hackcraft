@@ -8,6 +8,7 @@ public class HackcraftDataGenerator implements DataGeneratorEntrypoint {
 	public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
 
 
+
 	}
 }
 
