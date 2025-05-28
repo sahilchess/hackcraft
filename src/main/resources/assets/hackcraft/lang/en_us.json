@@ -5,5 +5,6 @@
   "item.hackcraft.curry": "Curry",
   "item.hackcraft.burnt_curry": "Burnt Curry",
   "block.hackcraft.curry_ore_block": "Ore of Curry",
-  "block.hackcraft.curry_block": "Block of Curry"
+  "block.hackcraft.curry_block": "Block of Curry",
+  "itemgroup.hackcraft.custom_items": "Custom Items"
 }

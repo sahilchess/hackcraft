@@ -1,6 +1,7 @@
 package com.sahil.hackcraft;
 
 import com.sahil.hackcraft.block.ModBlocks;
+import com.sahil.hackcraft.item.ModItemGroups;
 import net.fabricmc.api.ModInitializer;
 
 import com.sahil.hackcraft.item.ModItems;
@@ -14,6 +15,7 @@ public class Hackcraft implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
 		ModBlocks.registerModBlocks();
 		ModItems.registerModItems();
 	}

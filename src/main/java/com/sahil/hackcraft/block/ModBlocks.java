@@ -14,8 +14,10 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
 
-    public static final Block CURRY_ORE_BLOCK = registerBlock("curry_ore_block",new Block(AbstractBlock.Settings.create().strength(2f)));
-    public static final Block CURRY_BLOCK = registerBlock("curry_block",new Block(AbstractBlock.Settings.create().strength(2f)));
+    public static final Block CURRY_ORE_BLOCK = registerBlock("curry_ore_block",new Block(AbstractBlock.Settings
+            .create().strength(3f).sounds(BlockSoundGroup.HONEY)));
+    public static final Block CURRY_BLOCK = registerBlock("curry_block",new Block(AbstractBlock.Settings
+            .create().strength(3f).sounds(BlockSoundGroup.SLIME)));
 
     public static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
